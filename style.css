@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
-/* CRIPTOGRAFIAS FALSA DE ALGUNS ELEMENTOS */
+/* CRIPTOGRAFIAS FALSA DE ALGUNS ELEMENTOS COM ANIMAÇÕES*/
 
 #data {
   Font-family: "Rubik Glitch", system-ui;
@@ -9,7 +9,7 @@
   text-shadow: 0 0 5px #C800FF;
                0 0 10px #C800FF;
                0 0 20px #C800FF;
-}
+
 #data2 {
   Font-family: "Rubik Glitch", system-ui;
   Font-size: 1.3rem;
@@ -33,6 +33,10 @@
   animation: vocequermesmosaber 0.15s infinite;
 }
 
+/*FIM DA CRIPTGRAFIA FALSA COM ANIMAÇÕES*/
+
+  /*INICIO DA RESPONSIVIDADE MULTIPLATAFORMA (PC E CELULAR)*/
+  
 img {
     max-width: 100%;
     height: auto;
@@ -61,4 +65,4 @@ img {
     p {
         text-align: center;
     }
-}
+/* FIM DA RESPONSIVIDADE MULTIPLATAFORMA*/
