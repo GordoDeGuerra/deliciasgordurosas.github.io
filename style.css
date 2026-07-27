@@ -4,5 +4,8 @@
 #data {
   Font-family: "Rubik Glitch", system-ui;
   Font-size: 1.3rem;
-  color: #00ff66;
+  color: #C800FF;
+  text-shadow: 0 0 5px #C800FF;
+               0 0 10px #C800FF;
+               0 0 20px #C800FF;
 }
