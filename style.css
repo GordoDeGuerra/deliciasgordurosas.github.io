@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
 /* CRIPTOGRAFIAS FALSA DE ALGUNS ELEMENTOS */
+
 #data {
   Font-family: "Rubik Glitch", system-ui;
   Font-size: 1.3rem;
@@ -28,6 +29,10 @@
 #data {
     animation: vocequermesmosaber 0.15s infinite;
 }
+#data2 {
+  animation: vocequermesmosaber 0.15s infinite;
+}
+
 img {
     max-width: 100%;
     height: auto;
