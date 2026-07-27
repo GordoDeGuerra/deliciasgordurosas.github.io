@@ -17,3 +17,43 @@
                0 0 13px #C800FF;
                0 0 17px #C800FF;
 }
+@keyframes glitch {
+    0%   { transform: translateX(0); }
+    25%  { transform: translateX(-7px); }
+    50%  { transform: translateX(2px); }
+    75%  { transform: translateX(-4px); }
+    100% { transform: translateX(0); }
+}
+
+#data {
+    animation: glitch 0.15s infinite;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+@media (max-width: 768px) {
+
+    .barradenaveg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .logo,
+    .Ceo {
+        width: 80%;
+        margin: auto;
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+}
