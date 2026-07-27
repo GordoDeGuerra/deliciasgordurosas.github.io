@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
-/* DATA */
+/* CRIPTOGRAFIAS FALSAS DE ALGUNS ELEMENTOS */
 #data {
   Font-family: "Rubik Glitch", system-ui;
   Font-size: 1.3rem;
@@ -8,4 +8,12 @@
   text-shadow: 0 0 5px #C800FF;
                0 0 10px #C800FF;
                0 0 20px #C800FF;
+}
+#data2 {
+  Font-family: "Rubik Glitch", system-ui;
+  Font-size: 1.3rem;
+  color: #C800FF;
+  text-shadow: 0 0 7px #C800FF;
+               0 0 13px #C800FF;
+               0 0 17px #C800FF;
 }
