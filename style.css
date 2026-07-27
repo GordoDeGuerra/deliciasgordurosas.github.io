@@ -17,7 +17,7 @@
                0 0 13px #C800FF;
                0 0 17px #C800FF;
 }
-@keyframes glitch {
+@keyframes vocequermesmosaber {
     0%   { transform: translateX(0); }
     25%  { transform: translateX(-7px); }
     50%  { transform: translateX(2px); }
