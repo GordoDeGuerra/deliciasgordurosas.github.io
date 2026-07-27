@@ -42,6 +42,7 @@
     height: auto;
     display: block;
 }
+  
 @media (max-width: 768px) {
 
     .barradenaveg {
