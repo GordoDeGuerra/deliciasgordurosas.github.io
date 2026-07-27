@@ -1,1 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
+/* DATA */
+#data {
+  Font-family: "Rubik Glitch", system-ui;
+  Font-size: 1.3rem;
+  color: #00ff66;
+}
