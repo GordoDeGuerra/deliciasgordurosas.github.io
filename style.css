@@ -7,3 +7,9 @@ header {
   width: 35%;
   height: auto;
 }
+.ancora {
+  display: inline-block;
+  backgron-color: green;
+  border-radius: 5px;
+  font-weight: bold;
+}
