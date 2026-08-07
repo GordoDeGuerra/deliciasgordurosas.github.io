@@ -116,6 +116,7 @@ header {
   height: auto;
 }
 
+/*CELULAR*/
 @media (max-width: 768px) {
   .barradenaveg {
     flex-direction: column;
