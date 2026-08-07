@@ -115,3 +115,24 @@ header {
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 768px) {
+  .barradenaveg {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ancora {
+    margin: 5px 0;
+  }
+
+  .imagens {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
