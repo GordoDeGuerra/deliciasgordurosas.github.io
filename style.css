@@ -10,9 +10,13 @@ header {
 }
 .ancora {
   display: inline-block;
-  background-color: green;
-  border-radius: 5px;
   font-weight: bold;
+}
+
+.ancora:hover {
+  color: rgb(29, 127, 151);
+  background-color: white;
+  transition: all 0.3s ease;
 }
 
 .imagemzona {
@@ -92,6 +96,15 @@ header {
   height: auto;
 }
 
+.texto1 {
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .Ceo {
   display: block;
   margin: 0 auto;
@@ -116,15 +129,40 @@ header {
   height: auto;
 }
 
+.contato {
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
 /*CELULAR*/
 @media (max-width: 768px) {
-  .barradenaveg {
-    justify-content: center;
-    height: 60px;
+
+  .imagemzona {
+    width: 100%;
+    padding-top: 10%;
+    padding-right: 10%;
   }
 
-  .links-barra {
-    gap: 18px;
+  .texto1 {
+    font-size: 100%;
+  }
+
+  .barradenaveg {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .ancora {
@@ -136,7 +174,7 @@ header {
     align-items: center;
   }
 
-  .cards {
+  .cardes {
     flex-direction: column;
     align-items: center;
   }
